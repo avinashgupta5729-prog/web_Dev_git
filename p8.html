@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation and Card Overlay</title>
+
+    <style>
+        nav {
+            position: sticky;
+            top: 0;
+
+            background-color: #333;
+            color: white;
+
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+        .container {
+            padding: 30px;
+        }
+        .card {
+            position: relative;
+
+            width: 300px;
+            margin: 30px auto;
+
+            background-color: #eee;
+            padding: 15px;
+        }
+        .card img {
+            width: 100%;
+        }
+        .card h2 {
+            margin: 10px 0;
+        }
+        .overlay {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+            background-color: red;
+            color: white;
+
+            padding: 8px;
+        }
+        .content {
+            height: 1000px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+
+    <div class="container">
+
+        <h1>Sticky Navigation & Card Overlay</h1>
+
+        <div class="card">
+
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMR8XKtzSwdYng36SAzZHQdC_-nzmNafMz22OxkNMVUA&s=10"
+                alt="Sample Image">
+
+
+            <div class="overlay">
+                NEW
+            </div>
+
+
+            <h2>Sample Card</h2>
+
+            <p>
+                This is a simple card with an overlay
+                positioned using CSS.
+            </p>
+
+        </div>
+
+        <div class="content">
+            <h2>Scroll Down</h2>
+            <p>
+                Scroll the page to see that the navigation
+                bar remains visible at the top.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, unde? Sequi ad distinctio ipsa iusto
+                nemo mollitia ut officia repudiandae voluptatem at, cupiditate repellendus, facere sunt culpa dolor
+                officiis numquam.
+                Veniam assumenda rem laboriosam recusandae deleniti quam adipisci officia quaerat ad quidem! Hic
+                aspernatur eligendi incidunt velit quo numquam commodi culpa quas facilis officiis, doloribus nesciunt
+                optio. Cumque, impedit iusto!
+                Eum nobis sed repellat doloribus saepe magni corporis! Eligendi nihil ea ducimus esse harum! Obcaecati,
+                deleniti quos quam, facilis exercitationem, nesciunt dignissimos sequi dolor voluptas ea officia
+                delectus sunt velit?
+                Provident consectetur corporis eius ex. Harum exercitationem dolorem similique reprehenderit facere
+                omnis totam a, voluptas doloremque et, cumque deleniti quam aspernatur quasi provident consequuntur,
+                magni placeat aliquam nemo odio! Assumenda.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
